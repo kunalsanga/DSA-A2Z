@@ -1,8 +1,8 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int x=10;
-    int y=5;
+    const int x=10;
+    const int y=5;
 
     switch (x+y){
         case 15:
